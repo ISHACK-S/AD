@@ -85,6 +85,15 @@ export default function Navbar() {
               })}
             </div>
 
+            <a
+              href="https://od-rose.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium bg-gradient-to-r from-sky-500 to-violet-500 text-white hover:shadow-lg hover:shadow-sky-500/20 transition-all duration-200"
+            >
+              Organizer Dashboard
+            </a>
+
             <button
               onClick={() => setAiOpen(true)}
               className="rounded-full p-2 text-slate-300 hover:text-sky-400 hover:bg-white/[0.06] transition-colors duration-200"
